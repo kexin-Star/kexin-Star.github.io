@@ -74,13 +74,16 @@ header img{
 }
 
 @media screen and (min-width: 850px){
-    header, .nav_links{
+    header{
         display: flex;
         flex-direction: row;
-        align-items: center;
         justify-content: space-between;
     }
 
+    .nav_links{
+        display: flex;
+        flex-direction: row;
+    }
 
     body > header{
         position: sticky;
