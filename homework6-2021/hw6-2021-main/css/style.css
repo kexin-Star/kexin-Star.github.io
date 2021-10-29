@@ -1,0 +1,128 @@
+body{
+    font-family: 'Alegreya Sans SC', serif;
+    background-image: url("../images/concrete_seamless.png");
+    background-color:#f1f1f1;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a:visited{
+    color: #0000ff;
+}
+
+.nav_links{
+    display: flex;
+    flex-direction: column;
+}
+
+.card header{
+    background-color: #288088;
+    border: solid 2px #45ADAD;
+    padding: 20px 0 20px 0;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.pricing{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 450px;
+    width: 450px;
+}
+
+.gallery img{
+    border: solid 10px #50C7C7;
+    margin: 10px;
+    width: 300px;
+}
+
+@keyframes showup{
+    0%{
+        width: 50px;
+        opacity: 0;
+    }
+    100%{
+        width: 425px;
+        opacity: 1;
+    }
+}
+
+header img{
+    animation-name: showup;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@media screen and (min-width: 850px){
+    header, .nav_links{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    body > header{
+        position: sticky;
+        top: 0px;
+    }
+
+    .card{
+        flex-basis: 250px;
+    }
+}
+
+@media all and (prefers-reduced-motion:reduce){
+    header img{
+        animation: none;
+    }
+}
+
+@media print{
+    body{
+        background: none;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .nav_links{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .pricing{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .card{
+        border: solid 2px #45ADDD;
+        flex-basis: 250px;;
+    }
+
+    .gallery, #gallery{
+        display: none;
+    }
+
+    .pricing li:nth-child(even)::after{
+        content: "👍"
+    }
+
+    .card li:nth-child(odd)::before {
+        content: "👍";
+      }
+}
