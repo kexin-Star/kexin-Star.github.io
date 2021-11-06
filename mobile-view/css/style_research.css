@@ -1,0 +1,133 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Pangolin', cursive, sans-serif;
+    background-color: #f8edeb;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+nav{
+    padding-top: 5px;
+    background-image:linear-gradient(to right,rgb(255, 255, 255,0.3),rgb(164, 184, 206) 80%);
+    position: sticky;
+    top:0;
+    opacity: 0.95;
+    z-index: 1;
+}
+
+.nav_list{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-right: 12px;
+    line-height: 1.5;
+    color: #0000;
+    font-family:'Special Elite', cursive, serif;
+}
+
+.nav_item a:link{
+    background-color: #eddcd2;
+    color: #723434;
+    text-decoration: none;
+}
+
+.nav_item a:hover{
+    background-color: #e9edc9;
+    text-decoration: none;
+}
+
+.nav_item a:active{
+    color: #d28692;
+    background-color: #eddcd2;
+    text-decoration: none;
+}
+
+div .research_list{
+    background-color: rgb(164, 184, 206);
+    height: 60px;
+    font-size: 14px;
+    font-family:'Special Elite', cursive, serif;
+    line-height: 1.5;
+    padding:10 10 10 10;
+}
+
+.nav_res a:link{
+    color: #2c1818;
+    text-decoration: underline;
+}
+
+.nav_res a:active{
+    color: #d28692;
+    background-color: #eddcd2;
+    text-decoration: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: repeat(5, auto);
+    grid-row-gap: 10px;
+    background-color: rgba(254, 200, 154, 0.5);
+}
+
+
+
+.lab{
+    margin-top: 10px;
+    grid-column: 1 / span 2;
+    grid-row: 1 / 2;
+    box-shadow: 5px 5px 10px rgba(138, 138, 138, 0.61);
+}
+
+.research{
+    grid-column: 1 / span 3;
+    grid-row: 2 / 3;
+    padding: 10 15 15 20;
+    background-color: rgba(250, 237, 205,0.8);
+    border-left:solid 6px #f4978e;
+}
+
+.research h2{
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive, serif;
+}
+
+.robot{
+    grid-column: 2 / span 2;
+    grid-row: 3 / 4;
+    background-color: rgba(190, 201, 153,0.85);
+    box-shadow: -5px 5px 10px rgba(138, 138, 138, 0.61);
+    margin-bottom: 0px;
+}
+
+.app{
+    grid-column: 1 / span 3;
+    grid-row: 4 / 5;
+    padding: 20 15 15 20;
+    background-color: rgba(233, 243, 214, 0.8);
+    border-right:solid 6px #698040;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: -5px 5px 10px rgba(138, 138, 138, 0.61);
+}
+
+.app h2{
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive, serif;
+}
+
+footer{
+    background-color: #db9588;
+    padding: 20 30 20 30;
+    font-family:'Special Elite', cursive, serif;
+    font-size: 13px;
+}
