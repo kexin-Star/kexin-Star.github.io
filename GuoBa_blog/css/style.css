@@ -43,7 +43,8 @@ h1{
 .subtitle{
     background-color: rgba(255, 220, 181, 0.418);
 }
-.subtitle p{
+.subtitle h2{
+    padding: 0;
     font-family: 'Caveat', cursive, sans-serif;
     font-size: 22px;
     text-align: center;
@@ -378,7 +379,7 @@ footer{
         margin-top: 25%; 
     }
 
-    .subtitle p{
+    .subtitle h2{
         font-size: 30px;
     }
         /*****************About Mee*********************/
@@ -625,7 +626,7 @@ footer{
         min-height: 65vh;
     }
 
-    .subtitle p{
+    .subtitle h2{
         font-size: 30px;
     }
 }
