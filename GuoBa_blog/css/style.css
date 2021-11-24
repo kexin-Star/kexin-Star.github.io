@@ -36,16 +36,20 @@ h1{
 
 
 @keyframes head_color_change{
-    from{color: #f1ca90;}
-    to{color: #d3752e;}
+    from{color: #663600;}
+    to{color: #c76317;}
 }
 
+.subtitle{
+    background-color: rgba(255, 220, 181, 0.418);
+}
 .subtitle p{
     font-family: 'Caveat', cursive, sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
-    text-shadow: 2px 2px 3px #ffff;
-    margin-top: -10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px #ffff;
+    margin-top: 10px;
 }
 
 .main_title{
@@ -374,7 +378,7 @@ footer{
         margin-top: 25%; 
     }
 
-    .subtitle{
+    .subtitle p{
         font-size: 30px;
     }
         /*****************About Mee*********************/
@@ -564,7 +568,7 @@ footer{
     
     /* Style the back side */
     .flip-card-back{
-        background-color: #e2762d;
+        background-color: #aa541a;
         color: white;
         transform: rotateY(180deg);
     }
@@ -621,7 +625,7 @@ footer{
         min-height: 65vh;
     }
 
-    .subtitle{
+    .subtitle p{
         font-size: 30px;
     }
 }
