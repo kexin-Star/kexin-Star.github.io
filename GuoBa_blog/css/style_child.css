@@ -1,0 +1,241 @@
+/*****************goodthing.html******************/
+.buy{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.buy > a{
+    text-decoration: none;
+    color: #1c254e;
+    padding: 5px 5px;
+    font-family: 'Gluten', cursive, sans-serif;
+    border: 2px solid #ffc582;
+}
+
+.buy > a:hover{
+    font-weight: bold;
+    background-color:#ffc582;
+}
+
+#source{
+    text-align: center;
+}
+
+#tiki_review{
+    background-color: #ffff;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-left: 20px solid #fce3d7;
+    border-right: 20px solid #fce3d7;
+    border-bottom: 20px solid #fce3d7;
+}
+
+#tikilogo{
+    text-align: center;
+}
+
+#taste_love{
+    border: 4px dotted #ffff;
+    margin: 10px 40px;
+}
+
+#taste_love p{
+    font-size: 30px;
+    padding: 0;
+}
+
+#grill, #aloha{
+    padding: 20px 20px;
+}
+
+#grill_review{
+    border-bottom: 2px solid #ffff;
+}
+
+#grill_review, #aloha_review{
+    padding: 10px 0;
+    margin: 0 20px;
+}
+
+#profile h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+#orijen_review{
+    background-color: #ffff;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-left: 20px solid #dff4f5;
+    border-right: 20px solid #dff4f5;
+    border-bottom: 20px solid #dff4f5;
+}
+
+/****************adoption.html****************/
+#petfinder_review{
+    background-color: #ffff;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-left: 20px solid #fff5db;
+    border-right: 20px solid #fff5db;
+    border-bottom: 20px solid #fff5db;
+}
+#finderlogo{
+    width: 40%;
+    height: auto;
+}
+
+#humanelogo{
+    padding-bottom: 20px;
+}
+
+#petfinder_review div{
+    padding: 0 10px 0 10px;
+}
+
+#humane_review{
+    background-color: #ffff;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-left: 20px solid #dff4f5;
+    border-right: 20px solid #dff4f5;
+    border-bottom: 20px solid #dff4f5;
+}
+
+#embedded{
+    margin-bottom: 5%;
+}
+iframe{
+    padding: 10px 20px;
+}
+/****************tablet view****************/
+@media screen and (min-width: 768px){
+    .container_item_1{
+        background-color: #fce3d7;
+        padding: 0 0 10px 0;
+    }
+    .preview_intro{
+        grid-column: 1/ 3;
+        grid-row: 1/ 2;
+    }
+
+    #tiki_review{
+        padding: 10px 40px;
+        grid-column: 1/ 3;
+        text-align: center;
+        border-left: 120px solid #fce3d7;
+        border-right: 120px solid #fce3d7;
+        border-bottom: 50px solid #fce3d7;
+    }
+
+    #orijen_review{
+        background-color: #ffff;
+        padding: 20px 40px;
+        grid-column: 1/ 3;
+        text-align: center;
+        border-left: 120px solid #dff4f5;
+        border-right: 120px solid #dff4f5;
+        border-bottom: 50px solid #dff4f5;
+    }
+
+    #orijen_review img{
+        width: 60%;
+        height: auto;
+    }
+
+    #web_review{
+        background-color: #ffff;
+        padding: 20px 40px;
+        grid-column: 1/ 3;
+        border-left: 120px solid #fff5db;
+        border-right: 120px solid #fff5db;
+        border-bottom: 50px solid #fff5db;
+    }
+
+    #petfinder_review{
+        padding: 20px 40px;
+        grid-column: 1/ 3;
+        border-left: 80px solid #fff5db;
+        border-right: 80px solid #fff5db;
+        border-bottom: 50px solid #fff5db;
+    }
+
+    #humane_review{
+        background-color: #ffff;
+        padding: 20px 40px;
+        grid-column: 1/ 3;
+        border-left: 80px solid #dff4f5;
+        border-right: 80px solid #dff4f5;
+        border-bottom: 50px solid #dff4f5;
+    }
+
+    #humanelogo, #adopt_img{
+        text-align: center;
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    iframe{
+        padding-left: 40px;
+        padding-right: 40px;
+        grid-column: 1/ 3;
+        width: 100%;
+        height: auto;
+    }
+
+    #profile{
+        padding: 5px 50px;
+    }
+
+    #profile p{
+        text-align: center;
+    }
+
+    #profile h3{
+        padding: 0;
+        font-size: 22px;
+    }
+
+    #taste_love{
+        grid-column: 1/ 3;
+        grid-row: 4/ 5;
+    }
+
+    #grill{
+        grid-column: 1/ 2;
+        grid-row: 5/ 6;
+        width: 80%;
+        height: auto;
+        padding: 20px 0 20px 40px;
+    }
+
+    #aloha{
+        grid-column: 1/ 2;
+        grid-row: 6/ 7;
+        width: 80%;
+        height: auto;
+        padding: 20px 0 20px 40px;
+    }
+
+    #grill_review{
+        background-color: #ffff;
+        padding: 10px 20px;
+        margin: auto 40px auto 0;
+        grid-column: 2/ 3;
+        grid-row: 5/ 6;
+    }
+
+    #aloha_review{
+        background-color: #ffff;
+        padding: 10px 20px;
+        margin: auto 40px auto 0;
+        grid-column: 2/ 3;
+        grid-row: 6/ 7;
+    }
+
+    #buy{
+        grid-column: 1/ 3;
+        grid-row: 6/ 7;
+    }
+}
