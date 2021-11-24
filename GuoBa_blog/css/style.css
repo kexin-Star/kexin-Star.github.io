@@ -621,7 +621,6 @@ footer{
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        background-color: #da7e37;
         width: 100%;
         min-height: 65vh;
     }
@@ -634,7 +633,7 @@ footer{
 @media screen and (prefers-reduced-motion: reduce){
     h1 {
         animation: none;
-        color: #da7e37;
+        color: #44230a;
         background-attachment: initial;
     }
 
