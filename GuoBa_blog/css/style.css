@@ -42,10 +42,10 @@ h1{
 
 .subtitle{
     background-color: rgba(255, 220, 181, 0.418);
-}
-.subtitle h2{
-    padding: 0;
     font-family: 'Caveat', cursive, sans-serif;
+}
+.subtitle h3{
+    padding: 0;
     font-size: 22px;
     text-align: center;
     font-weight: bold;
@@ -379,7 +379,7 @@ footer{
         margin-top: 25%; 
     }
 
-    .subtitle h2{
+    .subtitle h3{
         font-size: 30px;
     }
         /*****************About Mee*********************/
@@ -626,7 +626,7 @@ footer{
         min-height: 65vh;
     }
 
-    .subtitle h2{
+    .subtitle h3{
         font-size: 30px;
     }
 }
