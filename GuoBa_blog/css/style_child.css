@@ -1,3 +1,53 @@
+/*****************contact.html******************/
+input[type=text], input[type=email], textarea{
+    width: 100%; 
+    padding: 15px;  
+    border: 2px solid #fab291; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin: 10px;
+    resize: vertical;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+textarea {
+    height: 10em;
+}
+
+ input[type=submit] {
+    background-color: #c76317;
+    width: 100px;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #c76317;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+    animation-name: long_submit;
+    animation-duration: 1.5s;
+}
+
+@keyframes long_submit {
+    from {width: 100px;}
+    to {width: 100%;}
+}
+  
+.form-container {
+    border-radius: 10px;
+    background-color: #fce3d7;
+    padding: 20px;
+    max-width: 1024px;
+    margin: 20px auto;
+}
+
+
+
 /*****************goodthing.html******************/
 .buy{
     text-align: center;
@@ -103,10 +153,13 @@
 }
 
 #embedded{
+    text-align: center;
     margin-bottom: 5%;
 }
 iframe{
+    display: block;
     padding: 10px 20px;
+    margin: 0 auto;
 }
 /****************tablet view****************/
 @media screen and (min-width: 768px){
