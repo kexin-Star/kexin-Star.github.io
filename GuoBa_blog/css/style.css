@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    color: #522500;
+    color: #ffffff;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     margin: 0;
@@ -17,7 +17,7 @@ body{
     background-repeat: no-repeat;
     background-position: 35% 80%;
     background-size: cover;
-    background-color: #462309;
+    background-color: #ffffff;
     width: 100%;
     min-height:40vh;
 }
@@ -64,7 +64,7 @@ nav{
     flex-direction: column;
     background-image:linear-gradient(to right, rgba(255, 255, 255, 0) 55%, rgba(157, 216, 219, 0.8));
     padding-left: 10%;
-    background-color: rgba(255, 255, 255, 0.712);
+    background-color: rgba(255, 255, 255, 0.575);
 }
 
 #good{
