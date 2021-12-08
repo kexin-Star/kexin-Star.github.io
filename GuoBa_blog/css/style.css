@@ -188,7 +188,7 @@ h2{
 .container_item_1 > img{
     vertical-align: bottom;
 }
-#myname{
+.myname{
     font-family: 'Caveat', cursive, sans-serif;
     font-size: 22px;
     text-align: center;
@@ -398,7 +398,7 @@ footer{
         margin: auto auto;
     } 
 
-    #myname{
+    .myname{
         grid-column: 1/ 2;
         grid-row: 2/ 3;
         margin: auto auto;
@@ -596,7 +596,7 @@ footer{
         padding: 0 20px;
     }
 
-    .video_name, #myname, .gallery_word{
+    .video_name, .myname, .gallery_word{
         font-size: 24px;
         padding-left: 40px;
         padding-right: 40px;
