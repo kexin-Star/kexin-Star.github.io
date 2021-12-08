@@ -300,7 +300,7 @@ video{
     padding: 20px 0;
 }
 
-#video_name{
+.video_name{
     font-family: 'Caveat', cursive, sans-serif;
     text-align: center;
     font-weight: bold;
@@ -596,7 +596,7 @@ footer{
         padding: 0 20px;
     }
 
-    #video_name, #myname, .gallery_word{
+    .video_name, #myname, .gallery_word{
         font-size: 24px;
         padding-left: 40px;
         padding-right: 40px;
