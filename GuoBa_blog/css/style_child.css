@@ -16,7 +16,7 @@ textarea {
 }
 
  input[type=submit] {
-    background-color: #c76317;
+    background-color: #8a420c;
     width: 100px;
     color: white;
     padding: 15px 20px;
@@ -26,7 +26,7 @@ textarea {
 }
   
 input[type=submit]:hover {
-    background-color: #c76317;
+    background-color: #8a420c;
     animation-iteration-count: initial;
     animation-fill-mode: forwards;
     animation-name: long_submit;
