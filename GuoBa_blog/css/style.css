@@ -345,9 +345,6 @@ footer{
 @media screen and (min-width: 768px){
     .background{
         background-image: url(../image/gallery/header-background.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
         width: 100%;
         min-height: 50vh;
     }
@@ -624,10 +621,6 @@ footer{
     }
     .background{
         background-image: url(../image/gallery/header-background.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        width: 100%;
         min-height: 65vh;
     }
 
